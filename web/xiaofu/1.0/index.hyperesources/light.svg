@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="55px" viewBox="0 0 55 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-54.4%" y="-54.4%" width="208.7%" height="208.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="5.61662946" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="效果图-copy" transform="translate(-261.000000, -5027.000000)">
+            <g id="P5" transform="translate(-2.000000, 4321.000000)">
+                <g id="背景">
+                    <g id="线" transform="translate(6.000000, 419.000000)">
+                        <g id="Group-5" transform="translate(269.000000, 299.000000)">
+                            <circle id="Oval-3" fill-opacity="0.469999999" fill="#3E9BFF" filter="url(#filter-1)" cx="15.5" cy="15.5" r="15.5"></circle>
+                            <circle id="Oval-3" fill="#FFFFFF" cx="15.5" cy="15.5" r="5.5"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

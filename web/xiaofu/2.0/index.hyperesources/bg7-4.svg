@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="158px" height="158px" viewBox="0 0 158 158" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>bg7-4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="78.8716133%" y1="100%" x2="27.7074353%" y2="5.76508621%" id="linearGradient-1">
+            <stop stop-color="#5BC5F8" offset="0%"></stop>
+            <stop stop-color="#2E93EF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="新版" transform="translate(-294.000000, -6431.000000)" stroke-width="7" stroke="url(#linearGradient-1)">
+            <g id="7" transform="translate(0.000000, 6151.000000)">
+                <circle id="bg7-4" cx="373.089844" cy="359.089844" r="75.0898438"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

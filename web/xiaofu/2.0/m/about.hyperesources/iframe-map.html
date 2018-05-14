@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<style type="text/css">
+		body, html {width: 100%;height: 100%;margin:0;font-family:"微软雅黑";}
+		#allmap{width:100%;height:100%;}
+		p{margin-left:5px; font-size:14px;}
+	</style>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=EBd1c05fded5175f04d868af4f66a924"></script>
+	<title></title>
+</head>
+<body>
+	<div id="allmap"></div>
+	<p></p>
+</body>
+</html>
+<script type="text/javascript">
+	// 百度地图API功能
+	var sContent =
+	"<h4 style='margin:0 0 5px 0;padding:0.2em 0'>小肤科技</h4>" + 
+	"<img style='float:right;margin:4px' id='imgDemo' src='/other/maplogo.png' width='80' height='80' title='小肤科技'/>" + 
+	"<p style='margin:0;line-height:1.5;font-size:13px;text-indent:2em'>地址:浙江省杭州市余杭区仓前街道仓兴街1号8幢C座201室</p>" + 
+	"</div>";
+	var map = new BMap.Map("allmap", {enableMapClick:false});
+	var point = new BMap.Point(120.008591,30.296612);
+	var marker = new BMap.Marker(point);
+	var infoWindow = new BMap.InfoWindow(sContent);  // 创建信息窗口对象
+    var top_left_navigation = new BMap.NavigationControl(); 
+   var styleJson =
+	   
+[
+          {
+                    "featureType": "all",
+                    "elementType": "all",
+                    "stylers": {
+                              "lightness": 7,
+                              "saturation": -100
+                    }
+          },
+          {
+                    "featureType": "poi",
+                    "elementType": "all",
+                    "stylers": {
+                              "visibility": "off"
+                    }
+          },
+          {
+                    "featureType": "label",
+                    "elementType": "all",
+                    "stylers": {
+                              "visibility": "off"
+                    }
+          },
+          {
+                    "featureType": "road",
+                    "elementType": "all",
+                    "stylers": {
+                              "saturation": -100,
+                              "visibility": "on"
+                    }
+          }
+]
+	   
+	   
+	map.setMapStyle({styleJson:styleJson});
+    //map.enableScrollWheelZoom();                         //启用滚轮放大缩小
+	map.addControl(new BMap.NavigationControl());        // 添加平移缩放控件
+	map.centerAndZoom(point, 13);
+	map.addOverlay(marker);
+	marker.addEventListener("click", function(){          
+	   this.openInfoWindow(infoWindow);
+	   //图片加载完毕重绘infowindow
+	   document.getElementById('imgDemo').onload = function (){
+		   infoWindow.redraw();   //防止在网速较慢，图片未加载时，生成的信息框高度比图片的总高度小，导致图片部分被隐藏
+	   }
+	});
+</script>
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+</body>
+</html>

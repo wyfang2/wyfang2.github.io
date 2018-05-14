@@ -1,0 +1,30 @@
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="/css/foundation.css" rel="stylesheet" type="text/css">
+    <link href="/css/twentytwenty.css" rel="stylesheet" type="text/css">
+    <style>
+    	html,body{
+    		height:100px;
+    	}
+    </style>
+</head>
+<body style="height:0px;">
+    <div class="row" style="margin-top: 0em;">
+        <div class="large-12 columns" style="padding-left:0em;padding-right:0rem;">
+            <div class="twentytwenty-wrapper twentytwenty-horizontal"><div class="twentytwenty-container" style="height: 200px;">
+                <img src="/img/1_1.jpg?" class="twentytwenty-before" style="clip: rect(0px, 500px, 400px, 0px);">
+                <img src="/img/1_2.jpg?" class="twentytwenty-after">
+            <div class="twentytwenty-overlay"><div class="twentytwenty-before-label"></div><div class="twentytwenty-after-label"></div></div><div class="twentytwenty-handle" style="left: 445.9px;"><span class="twentytwenty-left-arrow"></span><span class="twentytwenty-right-arrow"></span></div></div></div>
+</div>
+    </div>
+    <script src="/js/jquery-1.10.2.js"></script>
+    <script src="/js/jquery.event.move.js"></script>
+    <script src="/js/jquery.twentytwenty.js"></script>
+    <script>
+        $(window).load(function () {
+            $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({ default_offset_pct: 0.7 });
+        });
+    </script>
+</body></html>

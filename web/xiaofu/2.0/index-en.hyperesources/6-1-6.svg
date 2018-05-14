@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="223px" height="223px" viewBox="0 0 223 223" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>6-1-6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="78.8716133%" y1="100%" x2="27.7074353%" y2="5.76508621%" id="linearGradient-1">
+            <stop stop-color="#5BC5F8" offset="0%"></stop>
+            <stop stop-color="#2E93EF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-187.000000, -5712.000000)" stroke-width="11" stroke="url(#linearGradient-1)">
+            <g id="Group-34" transform="translate(0.000000, 5126.000000)">
+                <g id="Group-33" transform="translate(160.000000, 254.000000)">
+                    <circle id="6-1-6" cx="138.5" cy="443.5" r="105.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

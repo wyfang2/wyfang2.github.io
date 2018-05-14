@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="355px" height="99px" viewBox="0 0 355 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>BT3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="327" height="71" rx="8"></rect>
+        <filter x="-7.2%" y="-26.1%" width="114.4%" height="166.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.097118433 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="iPhone-8" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-10.000000, -359.000000)">
+        <g id="BT3" transform="translate(24.000000, 368.000000)">
+            <g id="Rectangle-2-Copy-2">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill-opacity="0.970000029" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#FFFFFF" stroke-width="1" x="0.5" y="0.5" width="326" height="70" rx="8"></rect>
+            </g>
+            <path d="M106.506,47.072 L104.058,47.072 L104.058,25.176 L96,25.176 L96,23 L114.564,23 L114.564,25.176 L106.506,25.176 L106.506,47.072 Z M123.616,44.896 L136.502,44.896 L136.502,47.072 L121.168,47.072 L121.168,23 L136.094,23 L136.094,25.176 L123.616,25.176 L123.616,33.472 L135.278,33.472 L135.278,35.614 L123.616,35.614 L123.616,44.896 Z M146.744,44.896 L157.964,44.896 L157.964,47.072 L144.296,47.072 L144.296,23 L146.744,23 L146.744,44.896 Z M167.084,44.896 L179.97,44.896 L179.97,47.072 L164.636,47.072 L164.636,23 L179.562,23 L179.562,25.176 L167.084,25.176 L167.084,33.472 L178.746,33.472 L178.746,35.614 L167.084,35.614 L167.084,44.896 Z M196.91,35.75 L204.56,35.75 L204.56,37.79 L196.91,37.79 L196.91,45.44 L194.87,45.44 L194.87,37.79 L187.22,37.79 L187.22,35.75 L194.87,35.75 L194.87,28.1 L196.91,28.1 L196.91,35.75 Z M221.296,32.724 L227.858,23 L230.782,23 L222.792,34.458 L231.632,47.072 L228.572,47.072 L221.228,36.226 L213.918,47.072 L210.858,47.072 L219.698,34.424 L211.64,23 L214.7,23 L221.296,32.724 Z" id="TELE+X" fill="#000000"></path>
+        </g>
+    </g>
+</svg>
